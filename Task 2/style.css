@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+html {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(202, 205, 199);
+}
+.cal-rapper {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    flex-direction: column;
+    width: 470px;
+}
+
+.cal-rapper h1 {
+    margin: 20px 20px;
+    font-size: 50px;
+    transition: 0.5s ease;
+}
+
+.cal-rapper h1:hover {
+    filter: drop-shadow( 0 5px 5px black)
+}
+
+.Calculater {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    justify-content: space-around;
+    border-radius: 0 20px 0 20px;
+    flex-direction: column;
+    font-size: 50px;
+    box-shadow: 0 0 10px black;
+    transition: 0.5s ease;
+}
+
+.Calculater:hover {
+    box-shadow: 0 0 10px black;
+    transform: scale(1.05);
+}
+
+.Calculater input {
+    padding: 10px;
+    border-radius: 0 10px 0 10px;
+    width: 380px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    transition: 0.5s ease;
+}
+
+.Calculater input:hover {
+    box-shadow: 0 0 10px black;
+    transform: scale(1.05);
+}
+
+.cal-btn {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.cal-btn button {
+    border: 1px solid black;
+    padding: 5px 30px;
+    border-radius: 0 10px 0 10px;
+    width: 28px;
+    margin: 5px 5px;
+    color:rgb(7, 7, 7);
+    background-color: rgb(254, 253, 253);
+    border-color: rgb(18, 18, 18);
+    transition: 0.5s ease;
+    border: 2px solid black;
+}
+
+.cal-btn button:hover {
+    box-shadow: 0 0 10px black;
+    transform: scale(1.05);
+}

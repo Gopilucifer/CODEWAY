@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculater</title>
+    <link rel="stylesheet" href="/Task 2/style.css">
+</head>
+
+<body>
+    <div class="cal-rapper">
+        <h1>Calculator</h1>
+        <div class="Calculater">
+            <input type="text" id="display" />
+            <div class="cal-btn">
+                <div>
+                    <button onclick="clearDisplay()" style="width: 138px;">c</button>
+                    <button onclick="clearDisplay('/')">/</button>
+                    <button onclick="clearDisplay('%')">%</button>
+                </div>
+                <div>
+                    <button onclick="displayValue(9)">9</button>
+                    <button onclick="displayValue(8)">8</button>
+                    <button onclick="displayValue(7)">7</button>
+                    <button onclick="displayValue('-')">-</button>
+                </div>
+                <div>
+                    <button onclick="displayValue('6')">6</button>
+                    <button onclick="displayValue('5')">5</button>
+                    <button onclick="displayValue('4')">4</button>
+                    <button onclick="displayValue('*')">*</button>
+                </div>
+                <div>
+                    <button onclick="displayValue('3')">3</button>
+                    <button onclick="displayValue('2')">2</button>
+                    <button onclick="displayValue('1')">1</button>
+                    <button onclick="displayValue('+')">+</button>
+                </div>
+                <div>
+                    <button onclick="displayValue('00')">00</button>
+                    <button onclick="displayValue('0')">0</button>
+                    <button onclick="calculate('=')" style="width: 138px;">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/Task 2/script.js"></script>
+
+</html>
